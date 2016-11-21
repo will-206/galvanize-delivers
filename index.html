@@ -1,11 +1,19 @@
+<!-- Click links to both the landing and ordering pages that are left and right aligned respectively in a fixed navbar.
+
+See that the ordering page is the active item in the navbar.
+
+See the order on the right side of roughly half the page with a receipt table at the top and a delivery form below. -->
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Galvanize Orders Home</title>
     <link rel="stylesheet" href="css/materialize.css">
-    <link rel="stylesheet" href="galvanizeorders.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/galvanizeorders.css">
   </head>
   <body>
     <header>
@@ -14,8 +22,8 @@
           <h4><a href="index.html">Galvanize Delivers</a></h4>
         </div>
 
-        <div class="col s3 valign hide-on-small-and-down amber darken-1">
-          <a href="order.html">Order Delivery<a>
+        <div id="orderButton" class="col s3 valign-wrapper hide-on-small-and-down amber darken-1">
+          <a class="valign center-align" href="order.html">Order Delivery<a>
         </div>
       </div>
 
@@ -33,7 +41,7 @@
             <i class="material-icons">shopping_basket</i>
             <h5>Shop Online</h5>
           </div>
-          <p>We have so many things that we have to do better... and certainly ipsum is one of them. The concept of Lorem Ipsum was created by and for the Chinese in order to make U.S. design jobs non-competitive. That other text? Sadly, it’s no longer a 10.</p>
+          <p>Using our convenient web app, you'll get all the power of gFood without having to call your order in. Order in your pajamas, order 24 hours a day, order on Christmas, we're here to serve you.</p>
         </div>
 
         <div class="col s12 m4">
@@ -41,7 +49,7 @@
             <i class="material-icons">directions_bike</i>
             <h5>Fast Delivery</h5>
           </div>
-          <p>My text is long and beautiful, as, it has been well documented, are various other parts of my website. It’s about making placeholder text great again. That’s what people want, they want placeholder text to be great again. Lorem Ispum is a choke artist. It chokes!</p>
+          <p>You've never seen ordering this quick. Our proprietary ordering rocket ship delivery team allows you to spend less time being hungry, and more time doing what matters most to you. We'd ask what that is, but gFood respects your privacy.</p>
         </div>
 
         <div class="col s12 m4">
@@ -49,7 +57,7 @@
             <i class="material-icons">euro_symbol</i>
             <h5>Great Deals</h5>
           </div>
-          <p>We are not keeping up with other websites. I don't think anybody knows it was Russia that wrote Lorem Ipsum, but I don't know, maybe it was. It could be Russia, but it could also be China. It could also be lots of other people. It also could be some wordsmith sitting on their bed that weights 400 pounds. Ok?</p>
+          <p>Money: You've got it, we want it. But let it never be said we're not incredibly fair! Burger sales? Check. Pizza sales? Check. Burger and pizza sales?? Check, check, check! We seriously can't stop making deals.</p>
         </div>
 
       </div>
